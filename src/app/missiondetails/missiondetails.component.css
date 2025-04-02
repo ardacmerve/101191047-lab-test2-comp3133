@@ -1,0 +1,22 @@
+img {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.container {
+    background: #ffcccb; 
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+h2 {
+    color: #333;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+  display: inline-block;
+  margin: 4px 0;
+}

@@ -1,0 +1,13 @@
+.mission-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  background: #ffcccb; 
+}
+
+.mission-card:hover {
+  background: #ffb3b3; 
+}
