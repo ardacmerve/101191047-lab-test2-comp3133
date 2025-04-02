@@ -11,17 +11,17 @@ export class SpacexapiService {
 
   constructor(private http: HttpClient) {}
 
-  // Get all missions
+
   getAllMissions(): Observable<Mission[]> {
     return this.http.get<Mission[]>(this.baseUrl);
   }
 
-  // Get single mission by flight number
+
   getMissionByFlightNumber(flightNumber: number): Observable<Mission> {
     return this.http.get<Mission>(`${this.baseUrl}/${flightNumber}`);
   }
 
-  // Filter missions by launch year
+
   getMissionsByYear(year: string): Observable<Mission[]> {
     return this.http.get<Mission[]>(`${this.baseUrl}?launch_year=${year}`);
   }

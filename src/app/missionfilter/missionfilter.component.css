@@ -10,10 +10,10 @@ select {
     padding: 0.5rem;
     margin: 1rem 0;
     cursor: pointer;
-    background: #ffcccb; /* Light pink color */
+    background: #ffcccb;
     transition: background 0.3s ease;
 }
 
 select:hover {
-    background: #ffb3b3; /* Darker pink on hover */
+    background: #ffb3b3;
 }

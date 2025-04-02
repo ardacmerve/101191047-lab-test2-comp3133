@@ -1,9 +1,8 @@
 <h2>SpaceX Missions</h2>
 
-<!-- Filter Dropdown -->
 <app-missionfilter (yearSelected)="filterMissions($event)"></app-missionfilter>
 
-<!-- Mission Cards -->
+
 <div *ngFor="let mission of missions" class="mission-card" (click)="viewMissionDetails(mission.flight_number)">
   <img [src]="mission.links.mission_patch_small" alt="Mission Patch" width="100" />
   <h3>{{ mission.mission_name }} ({{ mission.launch_year }})</h3>
